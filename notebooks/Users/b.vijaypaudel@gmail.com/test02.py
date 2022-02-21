@@ -75,9 +75,9 @@ mlflow.sklearn.autolog()
 with mlflow.start_run():
   
   # Set the model parameters. 
-  n_estimators = 190
-  max_depth = 6
-  max_features =7
+  n_estimators = 110
+  max_depth = 4
+  max_features =5
   
   # Create and train model.
   rf = li = LinearRegression()
