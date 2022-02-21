@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Salary Prediction</title>
+  </head>
+  <body>
+<form class="" action="{{url_for('predict')}}" method="post">
+<input type="text" name="Experiance" placeholder="Experiance">
+<input type="text" name="Test_score" placeholder="Test_score">
+<input type="text" name="Interview_score" placeholder="Interview_score">
+
+<button type="submit" class="">Predict</button>
+
+</form>
+
+{{data}}
+
+  </body>
+</html>
